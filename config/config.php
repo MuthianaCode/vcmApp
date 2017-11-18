@@ -1,5 +1,5 @@
 <?php
-
+/*
 	define("DB_HOST", "");
 	define("DB_USER", "");
 	define("DB_PASSWORD", "");
@@ -11,5 +11,13 @@
 	if ($conn->connect_error) {
 	    die("Connection failed: " . $conn->connect_error);
 	} 
-
-?>
+*/
+function conectarBD(){
+	try{
+		$conectPDO=new PDO("mysql:host=localhost;dbname=vcmAPP", "root", "");
+		}catch(PDOException $e){
+			echo $e->getMessage();
+			}
+		return $conectPDO;
+}
+ ?>
