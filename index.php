@@ -1,27 +1,13 @@
-
-<?php
-	echo "Muthiana";
-
-	echo "qualquer coisa";
-
-	echo "Shelia";
-echo "hello testing";
-
 <!-- 
-	/*
+/*
 * Author:muthiana coder's
 * Author URI: http://coders.muthiana.org
 * Company:Muthiana;
 * Company URI:http://muthiana.org
 * Description:Application for domestic violence
 * Copyright:2017 (c)
-
-
 */
-
-?>
-
- -->
+-->
 
 <!DOCTYPE html>
 <html  lang="pt">
