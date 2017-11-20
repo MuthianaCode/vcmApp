@@ -3,7 +3,7 @@
 	define("DB_HOST", "");
 	define("DB_USER", "");
 	define("DB_PASSWORD", "");
-	define("DB_DATABASE", "");
+	define("B_DATABASE", "");
 
 	// Create connection
 	$conn = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE);
