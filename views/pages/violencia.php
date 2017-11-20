@@ -1,12 +1,3 @@
-
-<?php
-	echo "Muthiana";
-
-	echo "qualquer coisa";
-
-	echo "Shelia";
-echo "hello testing";
-
 <!-- 
 	/*
 * Author:muthiana coder's
@@ -16,10 +7,7 @@ echo "hello testing";
 * Description:Application for domestic violence
 * Copyright:2017 (c)
 
-
 */
-
-?>
 
  -->
 
@@ -32,8 +20,8 @@ echo "hello testing";
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
-	<link rel="stylesheet" type="text/css" href="static/stylesheet/libraries/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="static/stylesheet/main.css">
+	<link rel="stylesheet" type="text/css" href="../../static/stylesheet/libraries/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../static/stylesheet/main.css">
 	<!-- leafletjs map css -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
@@ -79,15 +67,11 @@ echo "hello testing";
 				  </div>
 				</nav>
 			</header>
-		
-
-			<nav>
-				<ul class="sub-menu">
-					<button type="button" class="float-left btn btn-primary"><a href="">denucia</a></button>
-					<button type="button" class="float-right btn btn-primary"><a href="views/pages/violencia.php">ver violencia</a></button>
-					
-			</nav>
-			 <div id="mapid"></div>
+		  <form class="form-inline my-6 my-lg-6 justify-content-center">
+      	  <input class="form-control mr-sm-6" type="text" placeholder="Search">
+      		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    	  </form>		
+	      <div id="mapid"></div>
 
 
 
