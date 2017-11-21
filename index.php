@@ -8,7 +8,6 @@
 * Copyright:2017 (c)
 */
 -->
-
 <!DOCTYPE html>
 <html  lang="pt">
 <head>
@@ -25,11 +24,7 @@
    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
    crossorigin=""/>
 	<!-- leafletjs map css -->
-
-
 	<!-- stylesheets -->	
-
-
 	<!-- scripts -->
 	<!-- leafletjs map javascript -->
 
