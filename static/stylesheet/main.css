@@ -1,0 +1,38 @@
+/*
+* Author:muthiana coder's
+* Author URI: http://coders.muthiana.org
+* Company:Muthiana;
+* Company URI:http://muthiana.org
+* Description:Application for domestic violence
+* Copyright:2017 (c)
+
+*/
+
+header{
+
+}
+
+
+#mapid {
+	width: 100vw;
+    height: 78vh;
+    position: relative;
+    outline: none;
+} 
+
+.sub-menu  li{
+	list-style: none;
+	border: 1px solid;
+}
+button {
+	margin-bottom: 20px;
+}
+button a{
+	color: white;
+}
+form{
+	
+	margin-bottom: 20px;
+}
+
+
