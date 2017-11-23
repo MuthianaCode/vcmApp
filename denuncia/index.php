@@ -12,8 +12,10 @@
 <?php 
 //fazer include do layout para o index
 include 'views/pages/layout/header.php';
-include 'views/pages/layout/home.php';
+include 'views/pages/layout/formDenucia.php';
 include 'views/pages/layout/footer.php';
+
+
  ?>
 
 
