@@ -19,7 +19,7 @@
     <meta http-equiv="X-UA-Compatible", content="IE=edge">
 	<!-- stylesheets -->
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,900" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="static/stylesheet/libraries/bootstrap/bootstrap.min.css">
    <link rel="stylesheet" type="text/css" href="static/stylesheet/libraries/bootstrap/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="static/stylesheet/main.css">
@@ -78,7 +78,7 @@
 				</nav>
 
 					<button type="button" id="denucia" ss class="float-left btn btn-danger"><a  href="">Denucia</a></button>
-					<button type="button" class="float-right btn btn-success"><a href="views/pages/violencia.php">Ver Violencia</a></button>
+					<button type="button" id="violencia" class="float-right btn btn-success"><a href="views/pages/violencia.php">Ver Violencia</a></button>
 
 			</header>
      <div class="container-fuild content">
