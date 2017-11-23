@@ -28,16 +28,32 @@
    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
    crossorigin=""/>
 
-
-	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-   crossorigin=""></script>
-	
-	<!-- leafletjs map javascript -->
-	<script type="text/javascript" src="../../static/javascript/app.js"></script>
 	
 	<!-- scripts -->
+	 
+<script type="text/javascript">
+		window.onload = function (){
+			var formulario = document.getElementById('formulario');
+			var mapid = document.getElementById('mapid');
+			formulario.style.display = "none";
+			document.getElementById("denucia").addEventListener("click", function(){
+	   			    if (formulario.style.display === "none") {
+			        formulario.style.display = "block";
+			        mapid.style.width = "60vw"
+			      } else {
+			      	 mapid.style.width = "100vw"
+			        formulario.style.display = "none";
+			    	}
+				});
+		};
 
+		
+	</script>
+	<style type="text/css">
+		.content{
+			    margin-top: 50px;
+		}
+	</style>
 	<title>Home</title>
 	
 </head>
@@ -60,30 +76,42 @@
 				    </ul>
 				  </div>
 				</nav>
-			</header>
-		
 
-			<nav>
-
-				<a href="#" class="navbar-toggle-btn"></a>
-
-				<ul class="sub-menu">
-
-               <div class="container">
-
-					<button type="button" class="float-left btn btn-danger"><a href="index2.php">Denucia</a></button>
+					<button type="button" id="denucia" ss class="float-left btn btn-danger"><a  href="">Denucia</a></button>
 					<button type="button" class="float-right btn btn-success"><a href="views/pages/violencia.php">Ver Violencia</a></button>
 
-               </div>
-					
-			</nav>
-			 <!-- <div id="mapid"></div> -->
+			</header>
+     <div class="container-fuild content">
+       <div class="row">
+        <div class="col-sm-4" id="formulario">
+          <h2>Formulario</h2>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Tipo de Violencia</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="tipo de violencia">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">O que aconteceu?</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="o que aconteceu">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Localizacao</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Localizacao">
+            </div>
+        
+            <button type="submit" class="btn btn-primary" name="violencia">Enviar</button>
+      </form>
 
-			 <div class="embed-responsive embed-responsive-16by9" id="mapid">
-			    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14350.058044596017!2d32.59947065!3d-25.9511612!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2smz!4v1511187861843" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
-			 </div>
-
-
+      <a href="detalhes.php">Mais detalhes</a>
+    </div>
+        <div class="col-sm-8">
+          <div class="embed-responsive embed-responsive-16by9" id="mapid">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14350.058044596017!2d32.59947065!3d-25.9511612!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2smz!4v1511187861843" width="0" height="0" frameborder="0" style="border:0" allowfullscreen></iframe>
+       </div>
+     </div>
+      </div>
+      
+      </div>
 
 
 </body>

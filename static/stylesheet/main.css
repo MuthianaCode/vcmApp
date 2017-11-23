@@ -14,15 +14,18 @@ header{
 
 
 #mapid {
-	width: 100vw;
+	width: 90vw;
     height: 78vh;
     position: relative;
-    outline: none;
+    outline: none;*/
 } 
 
 .sub-menu  li{
 	list-style: none;
 	border: 1px solid;
+}
+.content{
+	margin-top: 50px;
 }
 button {
 	margin-bottom: 20px;
