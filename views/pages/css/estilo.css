@@ -1,0 +1,122 @@
+.no-margin{
+    margin: 0px;
+}
+
+.no-padding{
+    padding: 0px;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-header img{
+    max-width: 100%;
+	height: auto;
+    margin-left: 50px; 
+}
+
+.navbar-right li img{
+    max-width: 100%;
+	height: auto;
+    margin-left: 15px;  
+}
+
+
+.navbar li p a{
+    color: white;
+}
+
+
+/**--------LINKS DOS SITES Instagram, Gmail e Messenger------**/
+.site-footer li p a{
+    color:#b2b2b2;
+}
+
+.site-footer li p a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+/**--------LINKS DOS SITES Instagram, Gmail e Messenger------**/
+
+
+
+/******Novo Footer=Roda-pe*****/
+
+.site-footer{
+    background-color: #222;
+    color: #fff;
+    margin-top: 30px;
+    padding-top: 30px;
+    
+}
+
+.bottom-footer{
+    border-top: 1px solid #b2b2b2;
+    margin-top: 10px;
+    padding-top: 20px;
+    color: #b2b2b2;
+    text-align: center;
+    
+}
+
+.footer-nav li{
+    display: inline; /**Todos elementos em linha***/
+    
+}
+
+.footer-nav{
+    text-align: center;
+    list-style: none;
+    
+}
+
+/**barra enable para o primeiro elemento***/
+.footer-nav li:not(:first-child):before{ 
+    content: '|';
+    padding: 0px 10px;
+}
+
+.footer-nav a {
+    color:#b2b2b2;
+}
+
+.footer-nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+
+.carousel slide{
+    text-align: center;
+}
+
+.carousel-caption{
+    text-align: center;
+}
+
+/**----------------Fonte do meu Nome--h2------------**/
+.jumbotron h2{
+    font-family: Vtks Hunt; /*Great Day Personal Use*/ /*Blacksword*/ /*Vtks Hunt*/
+}
+
+/*---jumbotron--*/
+.jumbotron{
+   background: linear-gradient(132deg, #85b73b, #98b0e5); 
+}
+/*---jumbotron--*/
+
+/*
+.scroll{
+    position: fixed;
+}
+
+.scroll2{
+    position: fixed;
+}
+*/

@@ -1,13 +1,16 @@
 <!-- 
-/*
+	/*
 * Author:muthiana coder's
 * Author URI: http://coders.muthiana.org
 * Company:Muthiana;
 * Company URI:http://muthiana.org
 * Description:Application for domestic violence
 * Copyright:2017 (c)
+
 */
--->
+
+ -->
+
 <!DOCTYPE html>
 <html  lang="pt">
 <head>
@@ -18,15 +21,13 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
 	<link rel="stylesheet" type="text/css" href="static/stylesheet/libraries/bootstrap/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="static/stylesheet/libraries/bootstrap/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="static/stylesheet/main.css">
 	<!-- leafletjs map css -->
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
    crossorigin=""/>
-	<!-- leafletjs map css -->
-	<!-- stylesheets -->	
-	<!-- scripts -->
-	<!-- leafletjs map javascript -->
+
 
 	<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
    integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
@@ -50,10 +51,10 @@
 				  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				    <ul class="nav navbar-nav navbar-right">
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">ajuda</a>
+				        <a class="nav-link" href="views/pages/ajuda.php">ajuda</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">sobre</a>
+				        <a class="nav-link" href="views/pages/sobre.php">sobre</a>
 				      </li>
 				   
 				    </ul>
@@ -63,12 +64,24 @@
 		
 
 			<nav>
+
+				<a href="#" class="navbar-toggle-btn"></a>
+
 				<ul class="sub-menu">
-					<button type="button" class="float-left btn btn-primary"><a href="">denucia</a></button>
-					<button type="button" class="float-right btn btn-primary"><a href="views/pages/violencia.php">ver violencia</a></button>
+
+               <div class="container">
+
+					<button type="button" class="float-left btn btn-danger"><a href="index2.php">Denucia</a></button>
+					<button type="button" class="float-right btn btn-success"><a href="views/pages/violencia.php">Ver Violencia</a></button>
+
+               </div>
 					
 			</nav>
-			 <div id="mapid"></div>
+			 <!-- <div id="mapid"></div> -->
+
+			 <div class="embed-responsive embed-responsive-16by9" id="mapid">
+			    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14350.058044596017!2d32.59947065!3d-25.9511612!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2smz!4v1511187861843" width="300" height="225" frameborder="0" style="border:0" allowfullscreen></iframe>
+			 </div>
 
 
 
