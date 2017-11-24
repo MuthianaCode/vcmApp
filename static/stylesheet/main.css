@@ -7,14 +7,30 @@
 * Copyright:2017 (c)
 
 */
+body{
 
+
+    font-family: 'Raleway', sans-serif;4
+
+
+}
+.bg-faded {
+    background-color: white;
+}
 header{
 
 }
+.logo{
+	width: 80px;
+}
 
+#denucia,  #violencia{
+	background-color: #ff4800;
+	border:none;
 
+}
 #mapid {
-	width: 90vw;
+	width: 80vw;
     height: 78vh;
     position: relative;
     outline: none;*/
@@ -37,5 +53,6 @@ form{
 	
 	margin-bottom: 20px;
 }
+
 
 
