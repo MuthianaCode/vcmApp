@@ -41,7 +41,7 @@
 			        formulario.style.display = "block";
 			        mapid.style.width = "60vw"
 			      } else {
-			      	 mapid.style.width = "100vw"
+			      	 mapid.style.width = "90vw"
 			        formulario.style.display = "none";
 			    	}
 				});
@@ -50,8 +50,23 @@
 		
 	</script>
 	<style type="text/css">
-		.content{
-			    margin-top: 50px;
+		.content{cd
+		    margin-top: 50px;
+		    margin-bottom: 50px;
+		}
+		.logo{
+			width: 80px;
+		}
+		.footer{
+		    width: 100vw;
+			background-color: #ff4800;
+			height: 50px;
+			color: white;
+		}
+		footer{
+		
+			text-align: center;
+		
 		}
 	</style>
 	<title>Home</title>
@@ -63,7 +78,7 @@
 				  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
-				  <a class="navbar-brand" href="#">Muthianas</a>
+				  <a class="navbar-brand" href="#"><img class="logo" src="static/images/logo.png"></a>
 				  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				    <ul class="nav navbar-nav navbar-right">
 				      <li class="nav-item">
@@ -76,12 +91,15 @@
 				    </ul>
 				  </div>
 				</nav>
-
-					<button type="button" id="denucia" ss class="float-left btn btn-danger"><a  href="">Denucia</a></button>
-					<button type="button" id="violencia" class="float-right btn btn-success"><a href="views/pages/violencia.php">Ver Violencia</a></button>
+					<div class="float-right">
+						<button type="button" id="denucia" ss class=" btn btn-danger"><a  href="">Denucia</a></button>
+					<button type="button" id="violencia" class=" btn btn-success"><a href="views/pages/violencia.php">Ver Violencia</a></button>
+					</div>
+					
 
 			</header>
      <div class="container-fuild content">
+     	<div class="container">
        <div class="row">
         <div class="col-sm-4" id="formulario">
           <h2>Formulario</h2>
@@ -112,7 +130,12 @@
       </div>
       
       </div>
-
-
+	</div>
+	<div class="container-fuild footer">
+		<p class="text-center">Muthianas 2017</p>
+	
+		
+	</div>
+	
 </body>
 </html>
